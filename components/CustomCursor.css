@@ -1,0 +1,11 @@
+/* components/CustomCursor.css */
+.custom-cursor {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  border-radius: 50%;
+  background-color: rgba(140, 140, 140, 0.75); /* Adjust color as needed */
+  position: fixed;
+  pointer-events: none; /* Prevents interference with other elements */
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
